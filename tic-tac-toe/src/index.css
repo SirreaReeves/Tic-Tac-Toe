@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#title {
+  font-family: Impact, fantasy;
+  font-size: 3.2em;
+  color: white;
+  line-height: 1.1;
+}
+
+#submit, #reset {
+  border-radius: 2em;
+  height: 4em;
+  width: 8em;
+  border: gray 4px solid;
+  padding: 0.4em 1.6em;
+  font-size: 1em;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  font-family: Impact, fantasy;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.square {
+  height: 2.5em;
+  width: 4em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  background: white;
+  border: none;
+  text-align: center;
+  font-size: 4em;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.row3 {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#form-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1em;
+}
+
+#name1, #name2 {
+  border-radius: 8px;
+  border: gray 4px solid;
+  padding: 0.4em 1.2em;
+  font-size: 1em;
+  margin-top: 1em;
+  font-family: Impact, fantasy;
+  background-color: black;
+  color: gray;
+}
+
+.winner {
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  text-align: center;
+}
